@@ -1,0 +1,2499 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.woff)format("woff"), url(../fonts/Gilroy-Regular.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-ExtraBold.woff)format("woff"), url(../fonts/Gilroy-ExtraBold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-SemiBold.woff)format("woff"), url(../fonts/Gilroy-SemiBold.ttf)format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Medium.woff)format("woff"), url(../fonts/Gilroy-Medium.ttf)format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Bold.woff)format("woff"), url(../fonts/Gilroy-Bold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+body {
+    font-family: "Gilroy";
+    overscroll-behavior-x: none;
+    overflow: hidden;
+    height: 100vh
+}
+
+.fullpage-loader {
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    background: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    top: 0
+}
+
+.fullpage-loader .fullpage-loader__logo {
+    margin: auto;
+    text-align: center
+}
+
+.fullpage-loader img {
+    width: 44%;
+    margin: auto
+}
+
+.fp-controlArrow {
+    opacity: 0
+}
+
+div {
+    text-align: center
+}
+
+.mainsite {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: 0 0;
+    z-index: 99;
+    top: 0
+}
+
+.mainsite a.navbar-brand {
+    margin: 0;
+    padding: 0
+}
+
+.mainsite a.navbar-brand img {
+    width: 128px
+}
+
+.mainsite nav.navbar.navbar-expand-lg {
+    padding: 0
+}
+
+.mainsite .navbar-nav li a {
+    color: #000;
+    font-weight: 500;
+    padding: 0 6px;
+    text-decoration: none
+}
+
+.mainsite .navbar-nav li.nav-item.lastgray a {
+    background: #5b5b5b;
+    color: #fff;
+    padding: 2px 8px
+}
+
+.mainsite .navbar-nav li {
+    margin: auto 21px;
+    position: relative
+}
+
+img.backbgadesktop {
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.leftsd {
+    float: left;
+    z-index: 9;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.leftsd.contentbannner {
+    float: none;
+    margin-left: 6%;
+    max-width: 100%
+}
+
+.mainsite .container-fluid {
+    max-width: 2698px
+}
+
+.contentbannner h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 46px;
+    line-height: 49px;
+    margin-bottom: 7px;
+    font-family: "Gilroy";
+    font-weight: 700
+}
+
+.contentbannner p {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    background: #ffdb2c;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    color: #000;
+    padding: 0 8px
+}
+
+.aboutctn {
+    text-align: left
+}
+
+.mainlivingbanner {
+    position: relative;
+    top: 48px
+}
+
+img.imagergts {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0
+}
+
+.txtrghts {
+    position: absolute;
+    right: 25px;
+    bottom: 210px;
+    text-align: right
+}
+
+.txtrghts h2,
+.txtrghts p {
+    color: #fff
+}
+
+.txtrghts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 43px
+}
+
+.txtrghts p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.aboutctn .mnhead {
+    font-weight: 700;
+    margin: 0 0 6px;
+    font-style: normal;
+    font-size: 33px
+}
+
+.aboutctn a,
+.aboutctn p,
+.innelnks ul li ul li a {
+    font-size: 13px;
+    font-weight: 500
+}
+
+.aboutctn a {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #ffd712;
+    padding: 5px 15px;
+    background: #ffd712
+}
+
+.iconsets img {
+    width: 54px
+}
+
+.iconsets {
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.iconsets h6,
+.iconsets p {
+    font-weight: 700;
+    font-size: 38px;
+    color: #5b5b5b
+}
+
+.iconsets p {
+    margin-bottom: 0;
+    line-height: 15px;
+    font-size: 12px
+}
+
+.common-forms .form-group .form-control {
+    border: 0;
+    color: #000;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 0;
+    height: auto;
+    outline: 0;
+    box-shadow: none;
+    font-size: 13px
+}
+
+.common-forms .form-group .form-control::placeholder {
+    color: #000
+}
+
+.common-forms .form-group {
+    margin-bottom: 30px
+}
+
+.common-forms .form-group textarea.form-control {
+    background: #f2f2f2;
+    height: 68px
+}
+
+.common-forms .form-group:last-child {
+    margin-bottom: 0
+}
+
+.common-forms .form-group .hdred-cta {
+    background: #fdca01;
+    color: #1b1616;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px 21px;
+    display: inherit
+}
+
+.common-forms,
+.connectforms {
+    text-align: left
+}
+
+.connectforms h5 {
+    font-weight: 600;
+    margin: 0 0 9px
+}
+
+.mapfrsa iframe {
+    width: 100%;
+    height: 80vh
+}
+
+div#showcase img,
+div#showcasenew img {
+    width: 54% !important;
+    margin: auto
+}
+
+#showcase,
+#showcasenew {
+    height: 75vh
+}
+
+#nav,
+#navn {
+    text-align: center
+}
+
+#nav>button,
+#navn>button {
+    width: 64px;
+    height: 36px;
+    color: #666;
+    font: 700 16px arial;
+    text-align: center;
+    margin: 5px;
+    text-shadow: 0 1px 0#f5f5f5;
+    background: #f6f6f6;
+    border: solid 2px rgba(0, 0, 0, .4);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    cursor: pointer
+}
+
+#nav>button.down,
+#nav>button:active,
+#navn>button.down,
+#navn>button:active {
+    background: #dfdfdf
+}
+
+#share {
+    top: -9px
+}
+
+#credits {
+    top: -15px
+}
+
+.maindivholder {
+    overflow-x: visible;
+    height: 100vh;
+    flex-flow: wrap;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    min-width: 100vw;
+    display: inline-flex;
+    z-index: -1
+}
+
+.slide {
+    flex-direction: row;
+    margin-left: 0;
+    display: flex;
+    position: relative;
+    height: 100%;
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    width: 100%;
+    padding: 0 20px
+}
+
+.graybgs {
+    background: #f3f3f3
+}
+
+.midct {
+    margin: auto;
+    width: 100%
+}
+
+.slide .container {
+    margin: auto;
+    max-width: 100%
+}
+
+.toponlyarro .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.arrowbannshoon .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    bottom: 0;
+    right: -32px;
+    z-index: 9
+}
+
+.sunbdropsdown,
+div#nav {
+    position: absolute;
+    left: 0
+}
+
+div#nav {
+    right: 0;
+    width: 100%;
+    top: 50%;
+    z-index: 9999
+}
+
+div#nav button {
+    width: auto;
+    height: auto;
+    font-size: 33px;
+    color: #000;
+    border-radius: 0;
+    outline: 0
+}
+
+div#nav button,
+div#nav button:hover {
+    padding: 0;
+    background: 0 0;
+    box-shadow: none;
+    border: 0
+}
+
+.mainsite a.navbar-brand,
+a.midmeirark,
+div#nav button.left {
+    float: left
+}
+
+div#nav button.right {
+    float: right
+}
+
+.sunbdropsdown {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    width: 201px;
+    background: #ffdb2c;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .6s;
+    top: 21px
+}
+
+.sunbdropsdown li {
+    margin: 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li,
+.mainsite ul.sunbdropsdown li {
+    margin: 0 7px
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li a {
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    padding: 6px 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li:last-child a,
+.mainsite ul.sunbdropsdown li:last-child a {
+    border-bottom: 0 solid #000
+}
+
+.mainsite .navbar-nav li:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li i,
+.mainsite ul.sunbdropsdown li i {
+    float: right;
+    font-size: 10px;
+    line-height: 30px
+}
+
+.mainsite .navbar-nav li.active a,
+.mainsite .navbar-nav li:hover a {
+    background: #ffdb2c
+}
+
+.scrolltxtinfo {
+    position: absolute;
+    left: 20px;
+    bottom: 14px
+}
+
+.scrolltxtinfo p {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row
+}
+
+.scrolltxtinfo p i {
+    font-size: 17px;
+    margin: auto 4px;
+    line-height: 26px
+}
+
+.menurights i {
+    font-size: 20px
+}
+
+.slick-slide {
+    height: 100vh
+}
+
+.slick-dots {
+    bottom: 40px
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #cacaca;
+    opacity: 1
+}
+
+.slick-dots li.slick-active button:before {
+    font-size: 15px;
+    color: #ffdb2c
+}
+
+.desktopshowaronly {
+    display: block;
+    overflow: hidden
+}
+
+.mobiledisonly {
+    display: none
+}
+
+.slick-slide .showonlybigdvc,
+.slick-slide .showonlyextrabig {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: none
+}
+
+.menurights {
+    position: relative;
+    width: 20px
+}
+
+.innelnks,
+.innelnks ul li ul {
+    position: absolute;
+    width: 163px;
+    padding: 10px
+}
+
+.innelnks {
+    right: 0;
+    background: #fdc900;
+    top: 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 155px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .5s
+}
+
+.innelnks.showit,
+span.swiper-pagination-bullet:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.innelnks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0
+}
+
+.innelnks ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block
+}
+
+.innelnks ul li a .rghtsdir {
+    float: right;
+    width: 100%;
+    text-align: right
+}
+
+.innelnks ul li ul {
+    top: 10px;
+    left: 0
+}
+
+.innelnks ul li {
+    position: relative;
+    text-align: left
+}
+
+.innelnks ul li a span {
+    font-size: 13px;
+    font-weight: 600
+}
+
+.innelnks ul li a span i {
+    font-size: 12px;
+    margin: 0 6px
+}
+
+.menurights .fa-times,
+.menurights.showcrs .fa-bars {
+    display: none
+}
+
+.container-fluid.fordeskonly,
+.menurights .fa-bars,
+.menurights.showcrs .fa-times {
+    display: block
+}
+
+.slide,
+.swiper-container {
+    height: 100vh
+}
+
+.formobonlys {
+    display: none
+}
+
+.swiper-pagination.withnsvs {
+    max-width: 85%;
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 76%;
+    margin: auto 0 auto auto
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet {
+    width: auto;
+    height: auto;
+    background: 0 0;
+    margin: 0 21px;
+    padding: 0 6px;
+    font-weight: 500
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet-active {
+    background: #ffdb2c;
+    border-radius: 0
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet:nth-child(1) {
+    opacity: 0;
+    visibility: hidden
+}
+
+.menurights {
+    float: right;
+    margin: auto 0
+}
+
+.mainsite .container-fluid {
+    display: flex
+}
+
+span.swiper-pagination-bullet {
+    position: relative
+}
+
+.mainsite ul.sunbdropsdown li a {
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    padding: 6px 0;
+    color: #000
+}
+
+span.cloud9-item {
+    display: block !important;
+    width: 58% !important;
+    left: -111px !important;
+    margin: auto !important
+}
+
+.contactarea {
+    background: #f2f2f2;
+    padding: 11px 30px
+}
+
+.siteformdes .form-control {
+    background: #fff;
+    border-radius: 0
+}
+
+.siteformdes label {
+    text-align: left;
+    display: block
+}
+
+.rgformpops .modal-title {
+    display: inline-block;
+    border-bottom: 4px solid #fdc900;
+    padding-bottom: 0;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin: auto
+}
+
+.rgformpops .modal-header {
+    border: 0;
+    text-align: center
+}
+
+.rgformpops button.close {
+    position: absolute;
+    right: 28px
+}
+
+.rgformpops .contactarea {
+    padding: 13px 0 20px
+}
+
+.rgformpops .modal-body {
+    padding: 0
+}
+
+.yellosubtn {
+    background: #fdca01;
+    color: #1b1616;
+    border: 0;
+    text-transform: capitalize;
+    padding: 6px 26px
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    span.cloud9-item {
+        width: 73% !important;
+        left: 0 !important
+    }
+
+    .formobonlys {
+        display: block
+    }
+
+    .mainsite .container-fluid.fordeskonly,
+    .menurights .fa-bars,
+    br {
+        display: none
+    }
+
+    .innelnks,
+    .menurights {
+        width: 100%;
+        position: relative
+    }
+
+    .innelnks {
+        opacity: 1;
+        visibility: visible;
+        top: 0
+    }
+
+    .menurights {
+        margin: 0
+    }
+
+    .mainsite .navbar-nav li {
+        margin: 0 14px;
+        text-align: left
+    }
+
+    .mainsite .navbar-nav {
+        padding: 20px 0
+    }
+
+    .navbar-collapse.show~.menurights {
+        display: block
+    }
+
+    .iconsets h6 {
+        font-size: 31px
+    }
+
+    .slide.toponlyarro.firstbanners {
+        height: 190px;
+        margin: 0;
+        margin-top: 40px
+    }
+
+    header.sitehead.mainsite {
+        z-index: 99999
+    }
+
+    .swiper-slide,
+    .swiper-wrapper {
+        display: block;
+        height: auto
+    }
+
+    #showcase {
+        height: 35vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 63% !important;
+        margin: auto
+    }
+
+    .swiper-container {
+        height: auto
+    }
+
+    .desktopshowaronly {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    .mobiledisonly,
+    .slide {
+        display: block
+    }
+
+    .slide {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin: 40px 0
+    }
+
+    body,
+    html {
+        overflow: auto;
+        overflow-x: hidden
+    }
+
+    .toponlyarro .arrowtopheadonly,
+    div#navn {
+        width: 95px;
+        position: absolute;
+        top: 0;
+        right: 0
+    }
+
+    .arrowbannshoon .arrowtopheadonly {
+        width: 95px
+    }
+
+    body {
+        overflow: scroll;
+        padding-top: 50px
+    }
+
+    .maindivholder {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    #showcasenew {
+        height: 26vh
+    }
+
+    .connectforms {
+        margin-bottom: 0
+    }
+
+    .contentbannner h1 {
+        font-size: 23px;
+        line-height: 19px
+    }
+
+    .leftsd.contentbannner {
+        margin: 10% 16px auto
+    }
+
+    .contentbannner p {
+        font-size: 21px
+    }
+
+    .mainlivingbanner {
+        top: 0;
+        margin-top: 0
+    }
+
+    .mainsite {
+        background: #fff;
+        padding: 5px
+    }
+
+    .mainsite a.navbar-brand img {
+        width: 80px
+    }
+
+    .leftsd.aboutctn {
+        margin: 0 0 13%
+    }
+
+    div#navn {
+        left: 0;
+        width: 100%;
+        top: 50%;
+        z-index: 9999
+    }
+
+    div#navn button.left {
+        position: relative;
+        left: -22px;
+        float: left
+    }
+
+    div#navn button.right {
+        right: -22px;
+        position: relative;
+        float: right
+    }
+
+    div#navn button {
+        padding: 0;
+        background: 0 0;
+        box-shadow: none;
+        border: 0;
+        width: auto;
+        height: auto;
+        font-size: 33px;
+        color: #000;
+        border-radius: 0;
+        outline: 0
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+    span.cloud9-item {
+        display: block !important;
+        width: 74% !important;
+        left: 0 !important;
+        margin: auto !important
+    }
+
+    .swiper-slide,
+    .swiper-wrapper {
+        display: block;
+        height: auto
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 35vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 63% !important;
+        margin: auto
+    }
+
+    .swiper-container {
+        height: auto
+    }
+
+    .desktopshowaronly {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    .slide {
+        height: auto;
+        margin: 40px 0
+    }
+
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-top: 50px
+    }
+
+    .slick-slide img.imagergts,
+    br {
+        display: none
+    }
+
+    .slide.toponlyarro.firstbanners {
+        height: 500px
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .mainsite {
+        background: #fff
+    }
+
+    ul#menu-center {
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding: 30px 0
+    }
+
+    .menurights {
+        width: 20px;
+        float: right;
+        margin-right: 19px;
+        margin-top: 20px
+    }
+
+    .menurights i {
+        font-size: 28px
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1024px) {
+    span.cloud9-item {
+        display: block !important;
+        width: 83% !important;
+        left: -138px !important;
+        margin: auto !important
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .slick-slide img.imagergts {
+        display: none
+    }
+
+    .mainlivingbanner {
+        top: 0
+    }
+
+    .swiper-pagination.withnsvs .swiper-pagination-bullet {
+        margin: 0 14px
+    }
+
+    .swiper-pagination.withnsvs {
+        width: 90%;
+        max-width: 100%
+    }
+}
+
+@media screen and (min-width:1920px) and (max-width:3000px) {
+    .innelnks {
+        top: 45px
+    }
+
+    .slick-slide img.imagergts {
+        display: none
+    }
+
+    .slick-slide .showonlybigdvc {
+        display: block
+    }
+
+    .slide .container {
+        margin: auto;
+        max-width: 100%
+    }
+
+    .mainlivingbanner {
+        top: 20px
+    }
+
+    .contentbannner h1 {
+        font-size: 3vw;
+        line-height: 82px
+    }
+
+    .contentbannner p {
+        font-size: 41px
+    }
+
+    .aboutctn .mnhead {
+        font-size: 2.2vw
+    }
+
+    .aboutctn p {
+        font-size: 22px
+    }
+
+    .aboutctn a {
+        font-size: 28px
+    }
+
+    .mainsite a.navbar-brand img {
+        width: auto
+    }
+
+    .mainsite .navbar-nav li a,
+    .menurights i {
+        font-size: 30px
+    }
+
+    .scrolltxtinfo p i {
+        font-size: 52px;
+        margin: auto 9px;
+        line-height: 46px
+    }
+
+    .slide {
+        padding: 0 50px
+    }
+
+    .sunbdropsdown {
+        top: 45px
+    }
+
+    .leftsd.contentbannner.scrolltxtinfo {
+        margin-left: 8%;
+        left: 0
+    }
+
+    .iconsets p {
+        line-height: 25px
+    }
+
+    img.imagergts {
+        width: 1087px
+    }
+
+    .scrolltxtinfo p {
+        font-size: 28px
+    }
+
+    .leftsd {
+        margin-bottom: 38px
+    }
+
+    .iconsets img {
+        width: 75px
+    }
+
+    .iconsets {
+        margin: 26px 0
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 75vh
+    }
+
+    .mainsite nav.navbar.navbar-expand-lg {
+        padding: 0 20px
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 75% !important;
+        margin: auto
+    }
+
+    div#nav button {
+        font-size: 63px
+    }
+
+    .swiper-pagination.withnsvs .swiper-pagination-bullet {
+        font-size: 33px
+    }
+
+    .swiper-pagination.withnsvs {
+        max-width: 100%;
+        width: 92%
+    }
+}
+
+@media screen and (min-width:2888px) and (max-width:3000px) {
+    .slick-slide .showonlybigdvc {
+        display: none
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .aboutctn a,
+    .aboutctn p,
+    .common-forms .form-group .form-control,
+    .common-forms .form-group .hdred-cta {
+        font-size: 35px
+    }
+
+    .aboutctn .mnhead {
+        font-size: 3vw
+    }
+
+    .connectforms h5 {
+        font-size: 46px;
+        margin: 40px 0
+    }
+
+    .common-forms .form-group textarea.form-control {
+        height: 208px
+    }
+
+    .iconsets p {
+        font-size: 25px
+    }
+
+    .iconsets h6 {
+        font-size: 68px;
+        font-weight: 800
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 75vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 75% !important;
+        margin: auto
+    }
+
+    div#nav button {
+        font-size: 63px
+    }
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.woff)format("woff"), url(../fonts/Gilroy-Regular.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-ExtraBold.woff)format("woff"), url(../fonts/Gilroy-ExtraBold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-SemiBold.woff)format("woff"), url(../fonts/Gilroy-SemiBold.ttf)format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Medium.woff)format("woff"), url(../fonts/Gilroy-Medium.ttf)format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Bold.woff)format("woff"), url(../fonts/Gilroy-Bold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+body {
+    font-family: "Gilroy";
+    overscroll-behavior-x: none;
+    overflow: hidden;
+    height: 100vh
+}
+
+.fullpage-loader {
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    background: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    top: 0
+}
+
+.fullpage-loader .fullpage-loader__logo {
+    margin: auto;
+    text-align: center
+}
+
+.fullpage-loader img {
+    width: 44%;
+    margin: auto
+}
+
+.fp-controlArrow {
+    opacity: 0
+}
+
+div {
+    text-align: center
+}
+
+.mainsite {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: 0 0;
+    z-index: 99;
+    top: 0
+}
+
+.mainsite a.navbar-brand {
+    margin: 0;
+    padding: 0
+}
+
+.mainsite a.navbar-brand img {
+    width: 128px
+}
+
+.mainsite nav.navbar.navbar-expand-lg {
+    padding: 0
+}
+
+.mainsite .navbar-nav li a {
+    color: #000;
+    font-weight: 500;
+    padding: 0 6px;
+    text-decoration: none
+}
+
+.mainsite .navbar-nav li.nav-item.lastgray a {
+    background: #5b5b5b;
+    color: #fff;
+    padding: 2px 8px
+}
+
+.mainsite .navbar-nav li {
+    margin: auto 21px;
+    position: relative
+}
+
+img.backbgadesktop {
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.leftsd {
+    float: left;
+    z-index: 9;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.leftsd.contentbannner {
+    float: none;
+    margin-left: 6%;
+    max-width: 100%
+}
+
+.mainsite .container-fluid {
+    max-width: 2698px
+}
+
+.contentbannner h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 46px;
+    line-height: 49px;
+    margin-bottom: 7px;
+    font-family: "Gilroy";
+    font-weight: 700
+}
+
+.contentbannner p {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    background: #ffdb2c;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    color: #000;
+    padding: 0 8px
+}
+
+.aboutctn {
+    text-align: left
+}
+
+.mainlivingbanner {
+    position: relative;
+    top: 48px
+}
+
+img.imagergts {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0
+}
+
+.txtrghts {
+    position: absolute;
+    right: 25px;
+    bottom: 210px;
+    text-align: right
+}
+
+.txtrghts h2,
+.txtrghts p {
+    color: #fff
+}
+
+.txtrghts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 43px
+}
+
+.txtrghts p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.aboutctn .mnhead {
+    font-weight: 700;
+    margin: 0 0 6px;
+    font-style: normal;
+    font-size: 33px
+}
+
+.aboutctn a,
+.aboutctn p,
+.innelnks ul li ul li a {
+    font-size: 13px;
+    font-weight: 500
+}
+
+.aboutctn a {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #ffd712;
+    padding: 5px 15px;
+    background: #ffd712
+}
+
+.iconsets img {
+    width: 54px
+}
+
+.iconsets {
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.iconsets h6,
+.iconsets p {
+    font-weight: 700;
+    font-size: 38px;
+    color: #5b5b5b
+}
+
+.iconsets p {
+    margin-bottom: 0;
+    line-height: 15px;
+    font-size: 12px
+}
+
+.common-forms .form-group .form-control {
+    border: 0;
+    color: #000;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 0;
+    height: auto;
+    outline: 0;
+    box-shadow: none;
+    font-size: 13px
+}
+
+.common-forms .form-group .form-control::placeholder {
+    color: #000
+}
+
+.common-forms .form-group {
+    margin-bottom: 30px
+}
+
+.common-forms .form-group textarea.form-control {
+    background: #f2f2f2;
+    height: 68px
+}
+
+.common-forms .form-group:last-child {
+    margin-bottom: 0
+}
+
+.common-forms .form-group .hdred-cta {
+    background: #fdca01;
+    color: #1b1616;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px 21px;
+    display: inherit
+}
+
+.common-forms,
+.connectforms {
+    text-align: left
+}
+
+.connectforms h5 {
+    font-weight: 600;
+    margin: 0 0 9px
+}
+
+.mapfrsa iframe {
+    width: 100%;
+    height: 80vh
+}
+
+div#showcase img,
+div#showcasenew img {
+    width: 54% !important;
+    margin: auto
+}
+
+#showcase,
+#showcasenew {
+    height: 75vh
+}
+
+#nav,
+#navn {
+    text-align: center
+}
+
+#nav>button,
+#navn>button {
+    width: 64px;
+    height: 36px;
+    color: #666;
+    font: 700 16px arial;
+    text-align: center;
+    margin: 5px;
+    text-shadow: 0 1px 0#f5f5f5;
+    background: #f6f6f6;
+    border: solid 2px rgba(0, 0, 0, .4);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, .4);
+    cursor: pointer
+}
+
+#nav>button.down,
+#nav>button:active,
+#navn>button.down,
+#navn>button:active {
+    background: #dfdfdf
+}
+
+#share {
+    top: -9px
+}
+
+#credits {
+    top: -15px
+}
+
+.maindivholder {
+    overflow-x: visible;
+    height: 100vh;
+    flex-flow: wrap;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    min-width: 100vw;
+    display: inline-flex;
+    z-index: -1
+}
+
+.slide {
+    flex-direction: row;
+    margin-left: 0;
+    display: flex;
+    position: relative;
+    height: 100%;
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    width: 100%;
+    padding: 0 20px
+}
+
+.graybgs {
+    background: #f3f3f3
+}
+
+.midct {
+    margin: auto;
+    width: 100%
+}
+
+.slide .container {
+    margin: auto;
+    max-width: 100%
+}
+
+.toponlyarro .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.arrowbannshoon .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    bottom: 0;
+    right: -32px;
+    z-index: 9
+}
+
+.sunbdropsdown,
+div#nav {
+    position: absolute;
+    left: 0
+}
+
+div#nav {
+    right: 0;
+    width: 100%;
+    top: 50%;
+    z-index: 9999
+}
+
+div#nav button {
+    width: auto;
+    height: auto;
+    font-size: 33px;
+    color: #000;
+    border-radius: 0;
+    outline: 0
+}
+
+div#nav button,
+div#nav button:hover {
+    padding: 0;
+    background: 0 0;
+    box-shadow: none;
+    border: 0
+}
+
+.mainsite a.navbar-brand,
+a.midmeirark,
+div#nav button.left {
+    float: left
+}
+
+div#nav button.right {
+    float: right
+}
+
+.sunbdropsdown {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    width: 201px;
+    background: #ffdb2c;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .6s;
+    top: 21px
+}
+
+.sunbdropsdown li {
+    margin: 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li,
+.mainsite ul.sunbdropsdown li {
+    margin: 0 7px
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li a {
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    padding: 6px 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li:last-child a,
+.mainsite ul.sunbdropsdown li:last-child a {
+    border-bottom: 0 solid #000
+}
+
+.mainsite .navbar-nav li:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li i,
+.mainsite ul.sunbdropsdown li i {
+    float: right;
+    font-size: 10px;
+    line-height: 30px
+}
+
+.mainsite .navbar-nav li.active a,
+.mainsite .navbar-nav li:hover a {
+    background: #ffdb2c
+}
+
+.scrolltxtinfo {
+    position: absolute;
+    left: 20px;
+    bottom: 14px
+}
+
+.scrolltxtinfo p {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row
+}
+
+.scrolltxtinfo p i {
+    font-size: 17px;
+    margin: auto 4px;
+    line-height: 26px
+}
+
+.menurights i {
+    font-size: 20px
+}
+
+.slick-slide {
+    height: 100vh
+}
+
+.slick-dots {
+    bottom: 40px
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #cacaca;
+    opacity: 1
+}
+
+.slick-dots li.slick-active button:before {
+    font-size: 15px;
+    color: #ffdb2c
+}
+
+.desktopshowaronly {
+    display: block;
+    overflow: hidden
+}
+
+.mobiledisonly {
+    display: none
+}
+
+.slick-slide .showonlybigdvc,
+.slick-slide .showonlyextrabig {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: none
+}
+
+.menurights {
+    position: relative;
+    width: 20px
+}
+
+.innelnks,
+.innelnks ul li ul {
+    position: absolute;
+    width: 163px;
+    padding: 10px
+}
+
+.innelnks {
+    right: 0;
+    background: #fdc900;
+    top: 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 155px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .5s
+}
+
+.innelnks.showit,
+span.swiper-pagination-bullet:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.innelnks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0
+}
+
+.innelnks ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block
+}
+
+.innelnks ul li a .rghtsdir {
+    float: right;
+    width: 100%;
+    text-align: right
+}
+
+.innelnks ul li ul {
+    top: 10px;
+    left: 0
+}
+
+.innelnks ul li {
+    position: relative;
+    text-align: left
+}
+
+.innelnks ul li a span {
+    font-size: 13px;
+    font-weight: 600
+}
+
+.innelnks ul li a span i {
+    font-size: 12px;
+    margin: 0 6px
+}
+
+.menurights .fa-times,
+.menurights.showcrs .fa-bars {
+    display: none
+}
+
+.container-fluid.fordeskonly,
+.menurights .fa-bars,
+.menurights.showcrs .fa-times {
+    display: block
+}
+
+.slide,
+.swiper-container {
+    height: 100vh
+}
+
+.formobonlys {
+    display: none
+}
+
+.swiper-pagination.withnsvs {
+    max-width: 85%;
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 76%;
+    margin: auto 0 auto auto
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet {
+    width: auto;
+    height: auto;
+    background: 0 0;
+    margin: 0 21px;
+    padding: 0 6px;
+    font-weight: 500
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet-active {
+    background: #ffdb2c;
+    border-radius: 0
+}
+
+.swiper-pagination.withnsvs .swiper-pagination-bullet:nth-child(1) {
+    opacity: 0;
+    visibility: hidden
+}
+
+.menurights {
+    float: right;
+    margin: auto 0
+}
+
+.mainsite .container-fluid {
+    display: flex
+}
+
+span.swiper-pagination-bullet {
+    position: relative
+}
+
+.mainsite ul.sunbdropsdown li a {
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    padding: 6px 0;
+    color: #000
+}
+
+span.cloud9-item {
+    display: block !important;
+    width: 58% !important;
+    left: -111px !important;
+    margin: auto !important
+}
+
+.contactarea {
+    background: #f2f2f2;
+    padding: 11px 30px
+}
+
+.siteformdes .form-control {
+    background: #fff;
+    border-radius: 0
+}
+
+.siteformdes label {
+    text-align: left;
+    display: block
+}
+
+.rgformpops .modal-title {
+    display: inline-block;
+    border-bottom: 4px solid #fdc900;
+    padding-bottom: 0;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin: auto
+}
+
+.rgformpops .modal-header {
+    border: 0;
+    text-align: center
+}
+
+.rgformpops button.close {
+    position: absolute;
+    right: 28px
+}
+
+.rgformpops .contactarea {
+    padding: 13px 0 20px
+}
+
+.rgformpops .modal-body {
+    padding: 0
+}
+
+.yellosubtn {
+    background: #fdca01;
+    color: #1b1616;
+    border: 0;
+    text-transform: capitalize;
+    padding: 6px 26px
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    span.cloud9-item {
+        width: 73% !important;
+        left: 0 !important
+    }
+
+    .formobonlys {
+        display: block
+    }
+
+    .mainsite .container-fluid.fordeskonly,
+    .menurights .fa-bars,
+    br {
+        display: none
+    }
+
+    .innelnks,
+    .menurights {
+        width: 100%;
+        position: relative
+    }
+
+    .innelnks {
+        opacity: 1;
+        visibility: visible;
+        top: 0
+    }
+
+    .menurights {
+        margin: 0
+    }
+
+    .mainsite .navbar-nav li {
+        margin: 0 14px;
+        text-align: left
+    }
+
+    .mainsite .navbar-nav {
+        padding: 20px 0
+    }
+
+    .navbar-collapse.show~.menurights {
+        display: block
+    }
+
+    .iconsets h6 {
+        font-size: 31px
+    }
+
+    .slide.toponlyarro.firstbanners {
+        height: 190px;
+        margin: 0;
+        margin-top: 40px
+    }
+
+    header.sitehead.mainsite {
+        z-index: 99999
+    }
+
+    .swiper-slide,
+    .swiper-wrapper {
+        display: block;
+        height: auto
+    }
+
+    #showcase {
+        height: 35vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 63% !important;
+        margin: auto
+    }
+
+    .swiper-container {
+        height: auto
+    }
+
+    .desktopshowaronly {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    .mobiledisonly,
+    .slide {
+        display: block
+    }
+
+    .slide {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin: 40px 0
+    }
+
+    body,
+    html {
+        overflow: auto;
+        overflow-x: hidden
+    }
+
+    .toponlyarro .arrowtopheadonly,
+    div#navn {
+        width: 95px;
+        position: absolute;
+        top: 0;
+        right: 0
+    }
+
+    .arrowbannshoon .arrowtopheadonly {
+        width: 95px
+    }
+
+    body {
+        overflow: scroll;
+        padding-top: 50px
+    }
+
+    .maindivholder {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    #showcasenew {
+        height: 26vh
+    }
+
+    .connectforms {
+        margin-bottom: 0
+    }
+
+    .contentbannner h1 {
+        font-size: 23px;
+        line-height: 19px
+    }
+
+    .leftsd.contentbannner {
+        margin: 10% 16px auto
+    }
+
+    .contentbannner p {
+        font-size: 21px
+    }
+
+    .mainlivingbanner {
+        top: 0;
+        margin-top: 0
+    }
+
+    .mainsite {
+        background: #fff;
+        padding: 5px
+    }
+
+    .mainsite a.navbar-brand img {
+        width: 80px
+    }
+
+    .leftsd.aboutctn {
+        margin: 0 0 13%
+    }
+
+    div#navn {
+        left: 0;
+        width: 100%;
+        top: 50%;
+        z-index: 9999
+    }
+
+    div#navn button.left {
+        position: relative;
+        left: -22px;
+        float: left
+    }
+
+    div#navn button.right {
+        right: -22px;
+        position: relative;
+        float: right
+    }
+
+    div#navn button {
+        padding: 0;
+        background: 0 0;
+        box-shadow: none;
+        border: 0;
+        width: auto;
+        height: auto;
+        font-size: 33px;
+        color: #000;
+        border-radius: 0;
+        outline: 0
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+    span.cloud9-item {
+        display: block !important;
+        width: 74% !important;
+        left: 0 !important;
+        margin: auto !important
+    }
+
+    .swiper-slide,
+    .swiper-wrapper {
+        display: block;
+        height: auto
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 35vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 63% !important;
+        margin: auto
+    }
+
+    .swiper-container {
+        height: auto
+    }
+
+    .desktopshowaronly {
+        width: 100%;
+        height: auto;
+        overflow-x: initial;
+        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb
+    }
+
+    .slide {
+        height: auto;
+        margin: 40px 0
+    }
+
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-top: 50px
+    }
+
+    .slick-slide img.imagergts,
+    br {
+        display: none
+    }
+
+    .slide.toponlyarro.firstbanners {
+        height: 500px
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .mainsite {
+        background: #fff
+    }
+
+    ul#menu-center {
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding: 30px 0
+    }
+
+    .menurights {
+        width: 20px;
+        float: right;
+        margin-right: 19px;
+        margin-top: 20px
+    }
+
+    .menurights i {
+        font-size: 28px
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1024px) {
+    span.cloud9-item {
+        display: block !important;
+        width: 83% !important;
+        left: -138px !important;
+        margin: auto !important
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .slick-slide img.imagergts {
+        display: none
+    }
+
+    .mainlivingbanner {
+        top: 0
+    }
+
+    .swiper-pagination.withnsvs .swiper-pagination-bullet {
+        margin: 0 14px
+    }
+
+    .swiper-pagination.withnsvs {
+        width: 90%;
+        max-width: 100%
+    }
+}
+
+@media screen and (min-width:1920px) and (max-width:3000px) {
+    .innelnks {
+        top: 45px
+    }
+
+    .slick-slide img.imagergts {
+        display: none
+    }
+
+    .slick-slide .showonlybigdvc {
+        display: block
+    }
+
+    .slide .container {
+        margin: auto;
+        max-width: 100%
+    }
+
+    .mainlivingbanner {
+        top: 20px
+    }
+
+    .contentbannner h1 {
+        font-size: 3vw;
+        line-height: 82px
+    }
+
+    .contentbannner p {
+        font-size: 41px
+    }
+
+    .aboutctn .mnhead {
+        font-size: 2.2vw
+    }
+
+    .aboutctn p {
+        font-size: 22px
+    }
+
+    .aboutctn a {
+        font-size: 28px
+    }
+
+    .mainsite a.navbar-brand img {
+        width: auto
+    }
+
+    .mainsite .navbar-nav li a,
+    .menurights i {
+        font-size: 30px
+    }
+
+    .scrolltxtinfo p i {
+        font-size: 52px;
+        margin: auto 9px;
+        line-height: 46px
+    }
+
+    .slide {
+        padding: 0 50px
+    }
+
+    .sunbdropsdown {
+        top: 45px
+    }
+
+    .leftsd.contentbannner.scrolltxtinfo {
+        margin-left: 8%;
+        left: 0
+    }
+
+    .iconsets p {
+        line-height: 25px
+    }
+
+    img.imagergts {
+        width: 1087px
+    }
+
+    .scrolltxtinfo p {
+        font-size: 28px
+    }
+
+    .leftsd {
+        margin-bottom: 38px
+    }
+
+    .iconsets img {
+        width: 75px
+    }
+
+    .iconsets {
+        margin: 26px 0
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 75vh
+    }
+
+    .mainsite nav.navbar.navbar-expand-lg {
+        padding: 0 20px
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 75% !important;
+        margin: auto
+    }
+
+    div#nav button {
+        font-size: 63px
+    }
+
+    .swiper-pagination.withnsvs .swiper-pagination-bullet {
+        font-size: 33px
+    }
+
+    .swiper-pagination.withnsvs {
+        max-width: 100%;
+        width: 92%
+    }
+}
+
+@media screen and (min-width:2888px) and (max-width:3000px) {
+    .slick-slide .showonlybigdvc {
+        display: none
+    }
+
+    .slick-slide .showonlyextrabig {
+        display: block
+    }
+
+    .aboutctn a,
+    .aboutctn p,
+    .common-forms .form-group .form-control,
+    .common-forms .form-group .hdred-cta {
+        font-size: 35px
+    }
+
+    .aboutctn .mnhead {
+        font-size: 3vw
+    }
+
+    .connectforms h5 {
+        font-size: 46px;
+        margin: 40px 0
+    }
+
+    .common-forms .form-group textarea.form-control {
+        height: 208px
+    }
+
+    .iconsets p {
+        font-size: 25px
+    }
+
+    .iconsets h6 {
+        font-size: 68px;
+        font-weight: 800
+    }
+
+    #showcase,
+    #showcasenew {
+        height: 75vh
+    }
+
+    div#showcase img,
+    div#showcasenew img {
+        width: 75% !important;
+        margin: auto
+    }
+
+    div#nav button {
+        font-size: 63px
+    }
+}
